@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gym Code</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <link rel="shortcut icon" href="/public/favicon-16x16.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/public/favicon-32x32.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/public/apple-touch-icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="/public/site.webmanifest">
+
+</head>
+
+<body>
+
+  <!-- HEADER + HERO -->
+  <header class="hero-wrapper">
+
+    <!-- Background Video -->
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="/assets/video/hero-video.mp4" type="video/mp4">
+    </video>
+
+    <!-- Overlay -->
+    <div class="hero-overlay"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+      <div class="logo"><a href="#">GYM CODE.</a></div>
+      <i class="ri-menu-2-line menu-icon" id="menuToggle"></i>
+
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#progress">Progress</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#why-us">Why us?</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#join" class="mobile-join">Join</a></li>
+      </ul>
+
+      <!-- Mobile Menu -->
+
+
+      <a href="#join" class="nav-btn">Join</a>
+    </nav>
+
+    <div class="menu-backdrop" id="menuBackdrop"></div>
+
+    <!-- HERO CONTENT -->
+    <div class="hero-content" id="home">
+      <h1>Fitness that fits your life</h1>
+      <p>Trainer-led workouts · Group classes · Flexible memberships</p>
+
+      <div class="hero-actions">
+        <a href="#trial" class="btn-primary">Start Free Trial</a>
+        <a href="#programs" class="btn-secondary">View Programs</a>
+      </div>
+    </div>
+
+  </header>
+
+  <section class="transformations" id="progress">
+
+    <div class="transformations-header">
+      <h2>Real people. Real progress.</h2>
+      <p>Results from consistent training and expert guidance</p>
+    </div>
+
+    <div class="transformations-grid">
+
+      <!-- Card 1 -->
+      <div class="transformation-card">
+        <div class="ba-images">
+          <div class="ba-box">
+            <span>Before</span>
+            <img src="/assets/images/before.png" alt="Before">
+          </div>
+          <div class="ba-box">
+            <span>After</span>
+            <img src="/assets/images/after.png" alt="After">
+          </div>
+        </div>
+        <h4>Rahul, 26</h4>
+        <p>– 8kg in 12 weeks</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="transformation-card">
+        <div class="ba-images">
+          <div class="ba-box">
+            <span>Before</span>
+            <img src="/assets/images/before.png" alt="Before">
+          </div>
+          <div class="ba-box">
+            <span>After</span>
+            <img src="/assets/images/after.png" alt="After">
+          </div>
+        </div>
+        <h4>Anjali, 31</h4>
+        <p>Stronger · Healthier</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="transformation-card">
+        <div class="ba-images">
+          <div class="ba-box">
+            <span>Before</span>
+            <img src="/assets/images/before.png" alt="Before">
+          </div>
+          <div class="ba-box">
+            <span>After</span>
+            <img src="/assets/images/after.png" alt="After">
+          </div>
+        </div>
+        <h4>Sameer, 38</h4>
+        <p>Built muscle & stamina</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="why-gym" id="why-us">
+
+    <div class="why-header">
+      <h2>Why people choose us</h2>
+      <p>Everything you need to train smarter and stay consistent</p>
+    </div>
+
+    <div class="why-grid">
+
+      <div class="why-card">
+        <div class="why-icon">🏋️‍♂️</div>
+        <h4>Expert Trainers</h4>
+        <p>Certified coaches who guide you every step of the way.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">📊</div>
+        <h4>Proven Programs</h4>
+        <p>Science-backed workouts designed for real results.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">⏱️</div>
+        <h4>Flexible Timings</h4>
+        <p>Morning and evening sessions that fit your schedule.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">🤝</div>
+        <h4>Supportive Community</h4>
+        <p>Train with people who motivate and support you.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="programs" id="programs">
+
+    <div class="programs-header">
+      <h2>Programs for every goal</h2>
+      <p>Choose a training style that fits your lifestyle</p>
+    </div>
+
+    <div class="programs-grid">
+
+      <div class="program-card">
+        <div class="program-icon">💪</div>
+        <h4>Strength Training</h4>
+        <p>Build muscle, improve strength, and boost confidence.</p>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">🔥</div>
+        <h4>Weight Loss</h4>
+        <p>Burn fat safely with structured, trainer-led workouts.</p>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">🧘‍♀️</div>
+        <h4>Yoga & Mobility</h4>
+        <p>Improve flexibility, balance, and overall movement.</p>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">👥</div>
+        <h4>Group Workouts</h4>
+        <p>Train together in high-energy, motivating group sessions.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="trainers">
+
+    <div class="trainers-header">
+      <h2>Meet your trainers</h2>
+      <p>Certified professionals who guide and support you</p>
+    </div>
+
+    <div class="trainers-grid">
+
+      <!-- Trainer 1 -->
+      <div class="trainer-card">
+        <img src="/assets/images/trainers1.jpg" alt="Trainer Mike">
+        <h4>Mike</h4>
+        <span>Strength Coach</span>
+        <p>10+ years experience</p>
+      </div>
+
+      <!-- Trainer 2 -->
+      <div class="trainer-card">
+        <img src="/assets/images/trainers1.jpg" alt="Trainer Erica">
+        <h4>Erica</h4>
+        <span>Functional Trainer</span>
+        <p>6+ years experience</p>
+      </div>
+
+      <!-- Trainer 3 (Highlighted) -->
+      <div class="trainer-card popular">
+        <div class="badge">Most Popular</div>
+        <img src="/assets/images/trainers1.jpg" alt="Trainer James">
+        <h4>James</h4>
+        <span>Weight Loss Specialist</span>
+        <p>8+ years experience</p>
+      </div>
+
+      <!-- Trainer 4 -->
+      <div class="trainer-card">
+        <img src="/assets/images/trainers1.jpg" alt="Trainer Sarah">
+        <h4>Sarah</h4>
+        <span>Yoga Instructor</span>
+        <p>7+ years experience</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="pricing" id="pricing">
+
+    <div class="pricing-header">
+      <h2>Simple membership plans</h2>
+      <p>No long-term commitment. Cancel anytime.</p>
+    </div>
+
+    <div class="pricing-grid">
+
+      <!-- BASIC PLAN -->
+      <div class="pricing-card">
+        <h4>Basic</h4>
+        <div class="price">₹999<span>/month</span></div>
+        <ul>
+          <li>Gym access</li>
+          <li>Group workouts</li>
+          <li>Flexible timings</li>
+        </ul>
+        <a href="#" class="pricing-btn">Choose Plan</a>
+      </div>
+
+      <!-- STANDARD PLAN -->
+      <div class="pricing-card popular">
+        <div class="badge">Most Popular</div>
+        <h4>Standard</h4>
+        <div class="price">₹1,499<span>/month</span></div>
+        <ul>
+          <li>Everything in Basic</li>
+          <li>Trainer-led sessions</li>
+          <li>Personal guidance</li>
+        </ul>
+        <a href="#" class="pricing-btn primary">Start Free Trial</a>
+      </div>
+
+      <!-- PRO PLAN -->
+      <div class="pricing-card">
+        <h4>Pro</h4>
+        <div class="price">₹2,499<span>/month</span></div>
+        <ul>
+          <li>Unlimited access</li>
+          <li>Personal training</li>
+          <li>Nutrition guidance</li>
+        </ul>
+        <a href="#" class="pricing-btn">Choose Plan</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="final-cta">
+
+    <div class="cta-content">
+      <h2>Start your fitness journey today</h2>
+      <p>No pressure. No long-term commitment. Just show up.</p>
+      <a href="#trial" class="cta-btn">Start Free Trial</a>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+
+    <div class="footer-container">
+
+      <!-- BRAND -->
+      <div class="footer-brand">
+        <h3>FITNESS</h3>
+        <p>
+          Trainer-led workouts and flexible programs designed
+          to fit your lifestyle.
+        </p>
+      </div>
+
+      <!-- LINKS -->
+      <div class="footer-links">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </div>
+
+      <!-- PROGRAMS -->
+      <div class="footer-links">
+        <h4>Programs</h4>
+        <ul>
+          <li><a href="#">Strength Training</a></li>
+          <li><a href="#">Weight Loss</a></li>
+          <li><a href="#">Yoga & Mobility</a></li>
+          <li><a href="#">Group Workouts</a></li>
+        </ul>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>📍 Your City, India</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ hello@fitness.com</p>
+      </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="footer-bottom">
+      <p>© 2026 Fitness. All rights reserved.</p>
+    </div>
+
+  </footer>
+
+
+
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+    const backdrop = document.getElementById("menuBackdrop");
+
+    function closeMenu() {
+      navLinks.classList.remove("active");
+      backdrop.classList.remove("active");
+      menuToggle.classList.remove("ri-close-line");
+      menuToggle.classList.add("ri-menu-2-line");
+      document.body.style.overflow = "auto";
+    }
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+      backdrop.classList.toggle("active");
+
+      if (menuToggle.classList.contains("ri-menu-2-line")) {
+        menuToggle.classList.remove("ri-menu-2-line");
+        menuToggle.classList.add("ri-close-line");
+        document.body.style.overflow = "hidden"; // lock scroll
+      } else {
+        closeMenu();
+      }
+    });
+
+    backdrop.addEventListener("click", closeMenu);
+
+    document.querySelectorAll(".nav-links a").forEach(link => {
+      link.addEventListener("click", closeMenu);
+    });
+  </script>
+
+
+
+</body>
+
+</html>
